@@ -1,5 +1,5 @@
-import { TreeObject } from "../../../../../../dropin/studio/vscode/v1/repositories/dropin-studio-vscode/src/outside_modules/recipes/TreeObject"
-import { RecipeQuery } from "../../../../../../dropin/studio/vscode/v1/repositories/dropin-studio-vscode/src/outside_modules/recipes/RecipeQuery"
+import { TreeObject } from "./TreeObject"
+import { RecipeQuery } from "./RecipeQuery"
 
 export interface VSCodeTreeData<LabelType = string|RecipeQuery> {
   label: LabelType

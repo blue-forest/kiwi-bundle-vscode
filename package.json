@@ -10,11 +10,11 @@
     "build": "kiwi build"
   },
   "dependencies": {
+    "@types/vscode": "^1.40.0",
     "dropin-recipes": "^1.7.1",
     "vscode-test": "^1.2.3"
   },
   "devDependencies": {
-    "@types/vscode": "^1.40.0",
     "kiwi-bundle": "^3.0.0"
   }
 }

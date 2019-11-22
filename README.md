@@ -1,1 +1,1 @@
-# DROP'in Recipes TypeScript Client
+# Kiwi Bundle - VSCode

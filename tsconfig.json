@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/kiwi-bundle/models/ts/es2015.json",
+  "extends": "./node_modules/kiwi-bundle/.models/ts/es2015.json",
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": "src",
