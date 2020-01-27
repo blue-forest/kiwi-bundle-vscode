@@ -8,14 +8,14 @@
   "version": "1.0.0",
   "main": "./dist/index.js",
   "scripts": {
-		"vscode:prepublish": "kiwi build",
-		"compile": "kiwi build",
-		"watch": "kiwi start",
-		"pretest": "kiwi build"
-	},
-	"engines": {
-		"vscode": "^1.38.0"
-	},
+    "vscode:prepublish": "kiwi build",
+    "compile": "kiwi build",
+    "watch": "kiwi start",
+    "pretest": "kiwi build"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
   "dependencies": {
     "kiwi-bundle-vscode-runtime": "1.0.0"
   },
