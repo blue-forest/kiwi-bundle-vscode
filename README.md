@@ -17,10 +17,10 @@
     "vscode": "^1.38.0"
   },
   "dependencies": {
-    "kiwi-bundle-vscode-runtime": "1.0.0"
+    "kiwi-runtime-vscode": "1.1.1"
   },
   "devDependencies": {
-    "kiwi-bundle": "3.1.0",
+    "kiwi-bundle": "3.1.3",
     "kiwi-bundle-vscode": "1.1.0"
   }
 }
