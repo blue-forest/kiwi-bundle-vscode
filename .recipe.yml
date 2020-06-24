@@ -1,0 +1,10 @@
+$: dropin.recipes/Automations/Deployment
+
+services:
+  kiwi-bundle-vscode:
+    runtime: { name: nodejs }
+    tasks:
+      - name: Start developement build
+        command: start
+      - name: Build production files
+        command: build
