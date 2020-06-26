@@ -1,11 +1,10 @@
 dependencies:
   '@types/jest': 26.0.3
   '@types/vscode': 1.46.0
+  dropin-recipes: 1.8.2
   eslint: 7.3.1
   jest: 26.1.0
   vscode-test: 1.4.0
-devDependencies:
-  kiwi-bundle: 'link:../../../../../../../../../../usr/local/pnpm-global/pnpm-global/node_modules/kiwi-bundle'
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.3:
@@ -1268,6 +1267,12 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-yxJ2mFy/sibVQlu5qHjOkf9J3K6zgmCxgJ94u2EdvDOV09H+32LtRswEcUsmUWN72pVLOEnTSRaIVVzVQgS0dg==
+  /dropin-recipes/1.8.2:
+    dependencies:
+      node-fetch: 2.6.0
+    dev: false
+    resolution:
+      integrity: sha512-KLCufFGioUBIk1TkcXy185CWXLFsz0byRPI5baW736R6Bhaw5aNyMtsCNJqOUAYgEScVf3YpOQByaUCQWorQiQ==
   /ecc-jsbn/0.1.2:
     dependencies:
       jsbn: 0.1.1
@@ -2922,6 +2927,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+  /node-fetch/2.6.0:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
   /node-int64/0.4.0:
     dev: false
     resolution:
@@ -4231,7 +4242,7 @@ packages:
 specifiers:
   '@types/jest': 26.0.3
   '@types/vscode': ^1.45.1
+  dropin-recipes: 1.8.2
   eslint: 7.3.1
   jest: 26.1.0
-  kiwi-bundle: 3.1.4
   vscode-test: ^1.4.0
