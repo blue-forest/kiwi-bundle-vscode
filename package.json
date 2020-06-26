@@ -4,8 +4,21 @@
   "author": "Nazim Lachter <nazim@blueforest.cc>",
   "repository": "git@github.com:theblueforest/kiwi-bundle-vscode.git",
   "license": "Apache-2.0",
+  "main": "./dist/exports.ts",
+  "scripts": {
+    "start": "kiwi start",
+    "test": "kiwi test",
+    "build": "kiwi build",
+    "postinstall": "kiwi postinstall"
+  },
+  "devDependencies": {
+    "kiwi-bundle": "3.1.4"
+  },
   "dependencies": {
+    "@types/jest": "26.0.3",
     "@types/vscode": "^1.45.1",
+    "eslint": "7.3.1",
+    "jest": "26.1.0",
     "vscode-test": "^1.4.0"
   }
 }

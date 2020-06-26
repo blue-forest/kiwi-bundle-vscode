@@ -3,6 +3,8 @@ $: dropin.recipes/Automations/Deployment
 services:
   kiwi-bundle-vscode:
     runtime: { name: nodejs }
+    dependencies:
+      kiwi-bundle: blueforest:kiwi/core:kiwi-bundle:v1
     tasks:
       - name: Start developement build
         command: start
